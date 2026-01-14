@@ -66,7 +66,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 80px 10%;
+  padding: 40px 10%;
   background-color: transparent;
   position: fixed;
   top: 0;
@@ -117,7 +117,8 @@ header.header-effect {
   align-items: center;
   width: 100%;
   height: 100vh;
-  padding-inline: 5%;
+  padding-inline: 10%;
+  padding-top: 80px;
   background: linear-gradient(to right bottom, #6d4aff, rgb(100, 237, 255));
   position: sticky;
   top: 0;
@@ -196,7 +197,7 @@ header.header-effect {
   height: 15rem;
 }
 .hero-sec .hero-img-container img {
-  width: 100%;
+  width: 80%;
   position: relative;
   z-index: 1;
   animation: floating 3s ease infinite alternate;
@@ -263,3 +264,4 @@ header.header-effect {
   }
 
 }
+
