@@ -265,3 +265,9 @@ header.header-effect {
 
 }
 
+@media (max-width: 1280px) {
+  .hero-sec {
+    padding: 100px 10%;
+}
+
+
