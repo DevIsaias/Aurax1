@@ -66,7 +66,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 40px 5%;
+  padding: 80px 10%;
   background-color: transparent;
   position: fixed;
   top: 0;
@@ -261,4 +261,5 @@ header.header-effect {
   100% {
     width: 200px;
   }
+
 }
