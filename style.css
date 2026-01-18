@@ -3,7 +3,7 @@
   --bg-color: #242424;
   --surface-cards: #18181d;
   --text-primary: #ffffff;
-  --text-secundary: #b3b3b3;
+  --text-secundary: #e4e4e4;
   --accent-color: #6d4aff;
   --accent-color2: #3a7bff;
   --accent-color3: rgb(100, 237, 255);
@@ -223,10 +223,21 @@ header.header-effect {
   width: 100%;
   background-color: var(--accent-color);
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: 500;
+  /* z-index: 500; */
+}
+
+.test h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.test p {
+  font-size: 1.5rem;
+  color: var(--text-secundary);
 }
 
 @keyframes rotate-border {
